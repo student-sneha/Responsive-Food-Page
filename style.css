@@ -145,6 +145,7 @@ header {
 .header_container .input_group {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: var(--white);
 }
 .header_container .input_group span {
@@ -507,6 +508,7 @@ header {
     padding: 20px 0px;
     display: none;
     transition: all 0.3s ease;
+    z-index:99;
   }
   .nav-links li {
     padding: 10px 0px;
@@ -529,7 +531,7 @@ header {
     justify-content: center;
   }
   .destination__card{
-    width: 60%;
+    width: 90%;
     max-width: 800px;
   }
   .footer__container{
